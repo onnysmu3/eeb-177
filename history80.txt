@@ -1,0 +1,80 @@
+  689  less hw-1-12-2017.txt
+  690  cd ../
+  691  ls
+  692  rm commands-hw.txt
+  693  ls
+  694  rm hw-1-12-2017.txt
+  695  ls
+  696  cd lab-work
+  697  ls
+  698  cd ../
+  699  git init
+  700  ls
+  701  git clone https://github.com/onnysmu3/lab-work.git
+  702  ls
+  703  cd lab-work
+  704  ls
+  705  cd 01-my-favorite-animals
+  706  ls
+  707  ls -la
+  708  cd ../
+  709  cd exercise-1
+  710  ls -la
+  711  cd ../
+  712  cd exercise-2
+  713  ls
+  714  cd ../
+  715  ls
+  716  cd 01-my-favorite-animals
+  717  ls
+  718  git init
+  719  git add --all
+  720  git commit -m "initial commit: adding all files"
+  721  git push
+  722  git log
+  723  git remote add --all https://github.com/onnysmu3/01-my-favorite-animals.git
+  724  git remote add https://github.com/onnysmu3/01-my-favorite-animals.git
+  725  git remote add -f https://github.com/onnysmu3/01-my-favorite-animals.git
+  726  cd ../
+  727  git init
+  728  ls
+  729  cd ../
+  730  ls -la
+  731  ls
+  732  lab-work
+  733  cd lab-work
+  734  git init
+  735  ls
+  736  git add README-animals.txt
+  737  git commit -m "initial commit: adding README-animals file"
+  738  git push
+  739  git add READMElinks.txt
+  740  git commit -m "initial commit: adding READMEklinks file"
+  741  git push
+  742  ls
+  743  git add 600-502418469-siberian-tiger-with-kids.jpg
+  744  git commit -m "initial commit: adding 600-502418469-siberian-tiger-with-kids file"
+  745  git push
+  746  ls
+  747  git add african-elephant-herd.jpg
+  748  git commit -m "initial commit: adding african-elephant-herd file"
+  749  git push
+  750  ls
+  751  less clone-01-my-favorite-animals.txt
+  752  ls
+  753  git add daiving2.jpg
+  754  git commit -m "initial commit: adding daiving2 file"
+  755  git push
+  756  ls
+  757  git add dolphin-01.jpeg
+  758  git commit -m "initial commit: adding dolphin-01 file"
+  759  git push
+  760  ls
+  761  git add lined-seahorse.jpg
+  762  git commit -m "initial commit: adding lined-seahorse file"
+  763  git push
+  764  ls
+  765  history
+  766  history 70
+  767  pwd
+  768  history 80 >> ~/Desktop/eeb-177/lab-work/history80.txt
