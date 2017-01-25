@@ -1,0 +1,6 @@
+  787  git init
+  788  git add regex_hw_Onny.txt
+  789  git commit -m "initial commit: adding regex_hw_Onny file"
+  790  git push
+  791  history
+  792  history 6 >> ~/Desktop/eeb-177/lab-work/hist-labwork-week2.txt
