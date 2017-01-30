@@ -1,0 +1,400 @@
+  860  less  cep-taxa.txt
+  861  man grep
+  862  grep Orchidaceae cep-taxa.txt
+  863  grep -n Orchidaceae cep-taxa.txt
+  864  grep -c Orchidaceae cep-taxa.txt
+  865  grep Falcon cep-taxa.txt
+  866  grep falcon cep-taxa.txt
+  867  cd sandbox
+  868  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  869  ls
+  870  grep -i falcon cep-taxa.txt
+  871  grep -i Ara cep-taxa.txt
+  872  grep ara cep-taxa.txt
+  873  grep -i -w ara cep-taxa.txt
+  874  grep -i cebus cep.taxa.txt
+  875  grep -i -w cebus cep-taxa.txt
+  876  grep -B 3 -i -w cebus cep-taxa.txt
+  877  grep man
+  878  history
+  879  history 80 >> ~/Desktop/history3.txt
+  880  ls
+  881  grep -n cep-taxa.txt
+  882  history >> ~/Desktop/history3.txt
+  883  history
+  884  ls
+  885  grep -n -i -w iguana cep-taxa.txt
+  886  less cep-taxa.txt
+  887  history
+  888  grep -v -i -w ara cep-taxa.txt
+  889  grep -v -c -i -w ara cep-taxa.txt
+  890  grep -v -n -i -w ara cep-taxa.txt
+  891  grep -v -n -i -w ara cep-taxa.txt >> non-macaws.txt
+  892  ls -l
+  893  gedit non-macaws.txt
+  894  ls
+  895  find .*
+  896  find .
+  897  ls -la
+  898  find .*
+  899  ls ..?
+  900  ls ../
+  901  find ../data
+  902  pwd
+  903  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/sandbox
+  904  find .* /home/eeb177-student/Desktop/eeb-177/CSB/unix/sandbox
+  905  find ../data | wc -l
+  906  find ../data -name "n30.txt"
+  907  find ../data -name ".txt"
+  908  find ../data -name "*.txt"
+  909  find -name ../data/ "n30.txt"
+  910  find ../data -name "n30.txt"
+  911  find /home/eeb177-student/Desktop/ -name "classwork-Tues-1-17-17.txt"
+  912  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/sandbox -iname "classwork-Tues-1-17-17.txt"
+  913  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/sandbox -iname "*about*"
+  914  find ../data/ -iname "*about*"
+  915  find -iname "*about*"
+  916  ls
+  917  pwd
+  918  find ../../../../
+  919  find ../
+  920  find ../../
+  921  find ../../../../../Desktop -iname "*classwork*"
+  922  find ../../../../../Desktop -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignment/classwork-Tues-1-24.txt
+  923  cd ../../
+  924  ls
+  925  cd eeb-177
+  926  ls
+  927  cd class assignments
+  928  find ../../../../../Desktop -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  929  cd class-assignments
+  930  pwd
+  931  find ../../../../../Desktop -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  932  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  933  find ../../../../../Desktop -iname "*classwork*"
+  934  ls
+  935  cd ../
+  936  ;s
+  937  ls
+  938  cd CSB
+  939  ls
+  940  cd unix
+  941  ls
+  942  cd sandbox
+  943  find ../../../../../Desktop -iname "*classwork*"
+  944  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  945  cd ~
+  946  cd Desktop/eeb-177/CSB/unix/sandbox
+  947  ls -l
+  948  touch permission.txt
+  949  ls -l
+  950  chmod u=rwx permission.txt
+  951  ls -l
+  952  history
+  953  history 25
+  954  history 40
+  955  history 50
+  956  history 70
+  957  history 100
+  958  history 80
+  959  history 80 >> ~/Desktop/Tues-01-24-17.txt
+  960  cd `
+  961  cd.txt
+  962  history
+  963  history 110 >> ~/Desktop/history4.txt
+  964  cd ../
+  965  mkdir exercise-3
+  966  ls
+  967  exercise-3
+  968  cd exercise-3
+  969  ls
+  970  jupyter notebook
+  971  cd ../
+  972  git init
+  973  git add exercise-3
+  974  git commit -m "initial commit: adding exercise-3: introduction phyton"
+  975  git push
+  976  ls
+  977  cd exercise-3
+  978  ls
+  979  jupyter notebook
+  980  cd ~
+  981  git init
+  982  cd Desktop
+  983  cd eeb-177
+  984  ls
+  985  git init
+  986  ls -l
+  987  git init
+  988  git add hist-Tues-01-24-17.txt
+  989  git commit -m "initial commit: adding hist-Tues-01-24-17 file"
+  990  git push -u original master
+  991  git remote add origin https://github.com/onnysmu3/eeb-177.git
+  992  git status
+  993  git add hist-Tues-01-24-17.txt
+  994  git commit -m "initial commit: adding hist-Tues-01-24-17 file"
+  995  git push -u original master
+  996  git init
+  997  git remote add origin https://github.com/onnysmu3/eeb-177.git
+  998  git add hist-Tues-01-24-17.txt
+  999  git commit -m "initial commit: adding hist-Tues-01-24-17 file"
+ 1000  git push -u original master
+ 1001  ls
+ 1002  cd home-work
+ 1003  ls -la
+ 1004  ls regex_hw_Onny\'s\ answer.txt mv regex_hw_Onny\'s\ answer.txt regex_hw_Onny.txt
+ 1005  mv regex_hw_Onny\'s\ answer.txt regex_hw_Onny.txt
+ 1006  ls
+ 1007  cd ../
+ 1008  ls
+ 1009  hisory
+ 1010  history
+ 1011  cd ~
+ 1012  ls
+ 1013  cd Desktop
+ 1014  ls
+ 1015  cd eeb-177
+ 1016  ls
+ 1017  ls -la
+ 1018  git init
+ 1019  git clone 
+ 1020  git clone https://github.com/onnysmu3/home-work.git 
+ 1021  ls -la
+ 1022  ls
+ 1023  mv hw-1-12-2017.txt /home-work
+ 1024  cd home-work
+ 1025  ls -la
+ 1026  cd ..
+ 1027  ls
+ 1028  less hw-1-12-2017.txt
+ 1029  less commands-hw.txt
+ 1030  cd home-work
+ 1031  ls
+ 1032  less commands-hw.txt
+ 1033  less hw-1-12-2017.txt
+ 1034  cd ../
+ 1035  ls
+ 1036  rm commands-hw.txt
+ 1037  ls
+ 1038  rm hw-1-12-2017.txt
+ 1039  ls
+ 1040  cd lab-work
+ 1041  ls
+ 1042  cd ../
+ 1043  git init
+ 1044  ls
+ 1045  git clone https://github.com/onnysmu3/lab-work.git
+ 1046  ls
+ 1047  cd lab-work
+ 1048  ls
+ 1049  cd 01-my-favorite-animals
+ 1050  ls
+ 1051  ls -la
+ 1052  cd ../
+ 1053  cd exercise-1
+ 1054  ls -la
+ 1055  cd ../
+ 1056  cd exercise-2
+ 1057  ls
+ 1058  cd ../
+ 1059  ls
+ 1060  cd 01-my-favorite-animals
+ 1061  ls
+ 1062  git init
+ 1063  git add --all
+ 1064  git commit -m "initial commit: adding all files"
+ 1065  git push
+ 1066  git log
+ 1067  git remote add --all https://github.com/onnysmu3/01-my-favorite-animals.git
+ 1068  git remote add https://github.com/onnysmu3/01-my-favorite-animals.git
+ 1069  git remote add -f https://github.com/onnysmu3/01-my-favorite-animals.git
+ 1070  cd ../
+ 1071  git init
+ 1072  ls
+ 1073  cd ../
+ 1074  ls -la
+ 1075  ls
+ 1076  lab-work
+ 1077  cd lab-work
+ 1078  git init
+ 1079  ls
+ 1080  git add README-animals.txt
+ 1081  git commit -m "initial commit: adding README-animals file"
+ 1082  git push
+ 1083  git add READMElinks.txt
+ 1084  git commit -m "initial commit: adding READMEklinks file"
+ 1085  git push
+ 1086  ls
+ 1087  git add 600-502418469-siberian-tiger-with-kids.jpg
+ 1088  git commit -m "initial commit: adding 600-502418469-siberian-tiger-with-kids file"
+ 1089  git push
+ 1090  ls
+ 1091  git add african-elephant-herd.jpg
+ 1092  git commit -m "initial commit: adding african-elephant-herd file"
+ 1093  git push
+ 1094  ls
+ 1095  less clone-01-my-favorite-animals.txt
+ 1096  ls
+ 1097  git add daiving2.jpg
+ 1098  git commit -m "initial commit: adding daiving2 file"
+ 1099  git push
+ 1100  ls
+ 1101  git add dolphin-01.jpeg
+ 1102  git commit -m "initial commit: adding dolphin-01 file"
+ 1103  git push
+ 1104  ls
+ 1105  git add lined-seahorse.jpg
+ 1106  git commit -m "initial commit: adding lined-seahorse file"
+ 1107  git push
+ 1108  ls
+ 1109  history
+ 1110  history 70
+ 1111  pwd
+ 1112  history 80 >> ~/Desktop/eeb-177/lab-work/history80.txt
+ 1113  ls
+ 1114  less history80.txt
+ 1115  git add history80.txt
+ 1116  git commit -m "initial commit: adding history80 file"
+ 1117  git push
+ 1118  ls -la
+ 1119  ls
+ 1120  git init
+ 1121  git add labwork-week1-1.txt
+ 1122  git commit -m "initial commit: adding labwork-week1-1 file"
+ 1123  git push
+ 1124  git add labwork-week1-2.txt
+ 1125  git commit -m "initial commit: adding labwork-week1-2 file"
+ 1126  git push
+ 1127  git add labwork-week1-3.txt
+ 1128  git commit -m "initial commit: adding labwork-week1-3 file"
+ 1129  git push
+ 1130  ls
+ 1131  git init
+ 1132  git add regex_hw_Onny.txt
+ 1133  git commit -m "initial commit: adding regex_hw_Onny file"
+ 1134  git push
+ 1135  history
+ 1136  history 6 >> ~/Desktop/eeb-177/lab-work/hist-labwork-week2.txt
+ 1137  ls
+ 1138  git add hist-labwork-week2.txt
+ 1139  git commit -m "initial commit: adding hist-labwork-week2 file"
+ 1140  git push
+ 1141  history >> ~/Desktop/hist012517.txt
+ 1142  ls
+ 1143  cd exercise-2
+ 1144  ls
+ 1145  git init
+ 1146  git add regex_hw_Onny.txt
+ 1147  git commit -m "initial commit: adding regex_hw_Onny file"
+ 1148  git push
+ 1149  ls
+ 1150  cd Desktop
+ 1151  ls
+ 1152  cd eeb-177
+ 1153  ls
+ 1154  cd class-assignments
+ 1155  ls
+ 1156  touch classwork-Thurs-012617.txt
+ 1157  ls
+ 1158  ls -la
+ 1159  touch permission.txt
+ 1160  ls -l
+ 1161  chmod u=rwx permission.txt
+ 1162  ls
+ 1163  ls -la
+ 1164  chmod u=-r permission.txt
+ 1165  ls -la
+ 1166  chmod u=rwx permission.txt
+ 1167  ls -la
+ 1168  gedit
+ 1169  ls -la
+ 1170  ls /usr/bin
+ 1171  ls /bin
+ 1172  $PATH
+ 1173  ls
+ 1174  cd 
+ 1175  pwd
+ 1176  mkdir scripts
+ 1177  ls
+ 1178  cd scripts
+ 1179  ls
+ 1180  pwd
+ 1181  mv ~/Desktop/eeb-177/class-assignments/
+ 1182  cd
+ 1183  cd Desktop/eeb-177/class-assignments
+ 1184  pwd
+ 1185  cd
+ 1186  cd scripts
+ 1187  mv ~/Desktop/eeb-177/class-assignments/
+ 1188  cd Desktop/eeb-177/class-assignments
+ 1189  mv ~/Desktop/eeb-177/class-assignments/dir.sh ./
+ 1190  ls
+ 1191  cd
+ 1192  gedit .bash_profile
+ 1193  ls -a
+ 1194  $PATH
+ 1195  cd scripts
+ 1196  ls
+ 1197  ls -a
+ 1198  ls -l
+ 1199  chmod u=rwx dir.sh
+ 1200  ls -l
+ 1201  cd
+ 1202  ls
+ 1203  cd Desktop
+ 1204  ls
+ 1205  cd eeb-177
+ 1206  ls
+ 1207  cd class-assignment
+ 1208  cd class-assignments
+ 1209  ls
+ 1210  cd
+ 1211  ls .a
+ 1212  ls -a
+ 1213  gedit .profile
+ 1214  sudo reboot
+ 1215  $PATH
+ 1216  cd Desktop
+ 1217  dir.sh
+ 1218  cd
+ 1219  cd scripts
+ 1220  gedit sir.sh
+ 1221  gedit dir.sh
+ 1222  cd
+ 1223  cd Desktop
+ 1224  dir.sh
+ 1225  history
+ 1226  history 80 >> ~/Desktop/hist012617.txt
+ 1227  ls
+ 1228  mv hist012617.txt ~/Desktop/eeb-177/class-assignments/
+ 1229  cd eeb-177
+ 1230  cd class-assignments
+ 1231  ls
+ 1232  cd
+ 1233  cd Desktop
+ 1234  dir.sh
+ 1235  cd
+ 1236  cd scripts
+ 1237  touch *in_class_script.sh
+ 1238  gedit *in_class_script.sh
+ 1239  ls
+ 1240  rm *in_class_script.sh
+ 1241  ls
+ 1242  touch in_class_script.sh
+ 1243  gedit in_class_script.sh
+ 1244  ls -la
+ 1245  chmod u+x in_class_script.sh
+ 1246  ls -la
+ 1247  cd
+ 1248  cd Desktop/eeb-177/class-assignments/
+ 1249  ls
+ 1250  iphyton
+ 1251  $ipython
+ 1252  ipython
+ 1253  history
+ 1254  cd ..
+ 1255  ls
+ 1256  lab-work
+ 1257  cd lab-work
+ 1258  ls
+ 1259  history 400 > histLW-week3.txt
