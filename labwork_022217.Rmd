@@ -1,0 +1,57 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+install.packages("ggplot2")
+housing <- read.csv("/home/eeb177-student/Desktop/eeb-177/lab-work/exercise-8_1/Rgraphics/dataSets/landdata-states.csv")
+head(housing[1:5])
+hist(housing$Home.Value)
+library(ggplot2)
+ggplot(housing, aes(x = Home.Value)) + geom_histogram()
+plot(Home.Value ~ Date, data=subset(housing, State == "MA"))
+points(Home.Value ~ Date, col="red", data=subset(housing, State == "TX"))
+legend(1975, 400000,
+       c("MA", "TX"), title="State",
+       col=c("black", "red"),
+       pch=c(1, 1))
+ggplot(subset(housing, State %in% c("MA", "TX")),
+       aes(x=Date,
+           y=Home.Value,
+           color=State))+
+  geom_point()
+help.search("geom_", package = "ggplot2")
+```
+
+```{r}
+hp2001Q1 <- subset(housing, Date == 2001.25) 
+ggplot(hp2001Q1,
+       aes(y = Structure.Cost, x = Land.Value)) +
+  geom_point()
+```
+

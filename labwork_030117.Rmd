@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+```{r}
+housing <- read.csv("/home/eeb177-student/Desktop/eeb-177/lab-work/exercise-8_1/Rgraphics/dataSets/landdata-states.csv")
+head(housing[1:5])
+
+hist(housing$Home.Value)
+
+library(ggplot2)
+
+ggplot(housing, aes(x = Home.Value)) + geom_histogram()
+
+plot(Home.Value ~ Date, data=subset(housing, State == "MA"))
+points(Home.Value ~ Date, col="red", data=subset(housing, State == "TX"))
+legend(1975, 400000, c("MA", "TX"), title="State", col=c("black", "red"), pch=c(1, 1))
+
+ggplot(subset(housing, State %in% c("MA", "TX")), aes(x=Date, y=Home.Value, color=State)) + geom_point()
+
+help.search("geom_", package = "ggplot2")
+
+hp2001Q1 <- subset(housing, Date == 2001.25) 
+ggplot(hp2001Q1, aes(y = Structure.Cost, x = Land.Value)) + geom_point()
+
+ggplot(hp2001Q1, aes(y = Structure.Cost, x = log(Land.Value))) + geom_point()
+
+hp2001Q1$pred.SC <- predict(lm(Structure.Cost ~ log(Land.Value), data = hp2001Q1))
+
+p1 <- ggplot(hp2001Q1, aes(x = log(Land.Value), y = Structure.Cost))
+
+p1 + geom_point(aes(color = Home.Value)) + geom_line(aes(y = pred.SC))
+
+p1 + geom_point(aes(color = Home.Value)) + geom_smooth()
+
+p1 + geom_text(aes(label=State), size = 3)
+
+## install package "ggrepel"
+install.packages("ggrepel")
+
+library("ggrepel")
+
+p1 + geom_point() + geom_text_repel(aes(label=State), size = 3)
+
+p1 + geom_point(aes(size = 2),# incorrect! 2 is not a variable 
+                color="red") # this is fine -- all points red
+
+p1 + geom_point(aes(color=Home.Value, shape = region))
+
+```
